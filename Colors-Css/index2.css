@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(174, 180, 232);
+}
+.firstP {
+  color: rgb(237, 167, 16);
+  background-color: aqua;
+}
+.secondP {
+  color: #f5a504;
+  background-color: #00d111;
+}
+.thirdP {
+  color: #fae100;
+  background-color: rgb(25, 26, 26);
+}

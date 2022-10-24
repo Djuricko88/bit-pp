@@ -1,0 +1,21 @@
+ul {
+  color: orange;
+}
+ul a:link {
+  text-shadow: 1px 1px 2px red
+}
+a:visited {
+  color:rgb(16, 16, 15);
+ 
+}
+
+a:hover {
+color:rgb(13, 247, 5);
+text-decoration: underline;
+;
+}
+
+a:active {
+  color: blue;
+}
+

@@ -1,0 +1,33 @@
+body {
+  font-family: fantasy;
+}
+
+p {
+  color: rgb(107, 23, 242);
+  font-weight: bold;
+  font-size: 30px;
+}
+.firstP {
+  font-family: 'fastHand';
+}
+.secondP{
+  font-style:oblique;
+  color: rgb(27, 175, 198);
+
+}
+.thirdP {
+  color: rgb(51, 201, 84);
+}
+span{
+  font-size: 30px;
+  font-style: italic;
+}
+
+@font-face {
+  font-family:'fastHand';
+  src: url(./Fasthand/Fasthand-Regular.ttf);
+  font-style: italic;
+}
+
+
+

@@ -1,0 +1,7 @@
+.firstP {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.secondP {
+  text-transform: lowercase;
+}

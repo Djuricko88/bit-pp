@@ -1,0 +1,10 @@
+.firstD {
+  opacity: 0.5;
+
+}
+.secondD {
+ background-color: rgba(255, 0,0,0.5);
+}
+.secondD > img {
+  width: 700px;
+}

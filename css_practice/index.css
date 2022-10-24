@@ -1,0 +1,36 @@
+.firstP{
+  color: blue;
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.secondP{
+  color: rgb(237, 14, 14);
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.thirdP{
+  color: red;
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+}
+blockquote{
+  color: rgb(0, 34, 255);
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+address {
+  color: rgb(0, 34, 255);
+  font-family: fantasy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
+}

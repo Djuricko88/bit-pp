@@ -1,0 +1,16 @@
+.firstP {
+  letter-spacing: 5px;
+  text-align: left;
+  justify-items: left;
+  
+}
+
+.secondP {
+  line-height: 200px;
+  text-align: right;
+
+  
+}
+.thirdP {
+  text-align: center;
+}
