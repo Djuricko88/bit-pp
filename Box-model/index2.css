@@ -1,0 +1,12 @@
+.first {
+  background-color: yellow;
+  max-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+.second {
+  background-color: rgb(255, 0, 0);
+  width: 600px;
+  max-height: 200px;
+  overflow: scroll;
+}

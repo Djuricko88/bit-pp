@@ -1,0 +1,16 @@
+.first {
+  background-color: yellow;
+  border: 5px thick;
+  border: red dashed;
+
+}
+.second {
+  background-color: yellow;
+  border: 5px thick;
+  border: green solid;
+}
+.third {
+  background-color: yellow;
+  border: 5px thick;
+  border: red dashed;
+}

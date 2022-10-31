@@ -1,0 +1,12 @@
+p {
+  display: inline;
+  margin: 20px;
+  padding: 0px;
+
+ 
+}
+span.a {
+  background-color: yellow;
+  display: block;
+  margin: 20px;
+}

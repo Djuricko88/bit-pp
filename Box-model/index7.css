@@ -1,0 +1,14 @@
+.first {
+  background-color: rgb(51, 0, 255);
+  padding: 50px 50px 50px 50px;
+}
+.second {
+  background-color: orange;
+ padding-top: 50px; 
+ visibility: hidden;
+}
+.third {
+  background-color: rgb(27, 179, 60);
+  padding: 50px 50px 50px 50px;
+  display: none;
+}

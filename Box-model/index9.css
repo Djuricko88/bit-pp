@@ -1,0 +1,34 @@
+#sum {
+  width: 960px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(22, 99, 231, 0.682);
+  color: rgb(11, 240, 187);
+  font-family:'fastHand';
+  box-shadow:inset 0 0 15px rgb(165, 21, 21);
+  border-radius: 15px;
+  
+ }
+@font-face {
+  font-family:'fastHand';
+  src: url(./fonts/Fasthand-Regular.ttf);
+  font-style: italic;
+}
+.second {
+  box-shadow:inset 0 0 20px black;
+  border-radius: 10px 10px 15px 8px;
+  color: sandybrown;
+  background-color: royalblue;
+  display:flex;
+}
+.third {
+  box-shadow:inset 0 0 20px black;
+  border-radius: 10px 10px 15px 8px;
+  color: rgb(236, 208, 24);
+  background-color: rgb(65, 225, 134);
+  display:flex;
+}
