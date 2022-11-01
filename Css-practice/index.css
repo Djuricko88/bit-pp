@@ -1,0 +1,49 @@
+th {
+  background-color: red;
+  color: white;
+}
+#unorderedF {
+  list-style-type: circle;
+}
+#unorderedS {
+  list-style-type: square;
+}
+
+.orderedF {
+  list-style-type: upper-alpha;
+}
+
+.orderedS {
+  list-style-type: upper-roman;
+}
+
+#unorderedT {
+  list-style-image: linear-gradient(to left bottom, red, blue);
+  width: 200px;
+ 
+}
+#unorderedG {
+  list-style-image: url(https://www.hevapla.ch/global/wGlobal/layout/images/icons/arrow-e-1.svg);
+  width: 200px;
+  list-style-position: inside;
+}
+.table1 {
+ background-color: white;
+ border: 100px;
+ margin: auto;
+ 
+
+}
+.table2:hover,
+.table3:hover, 
+.table4:hover, 
+.table5:hover,
+.table6:hover {
+ background-color: yellow;
+ } 
+ .table3 {
+  background-color: gray;
+ }
+ .table5 {
+  background-color: gray;
+ }
