@@ -1,0 +1,79 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+.firstD {
+  background-color: aqua;
+}
+.secondD {
+  background-color: rgb(101, 234, 18);
+}
+.thirdD {
+  background-color: rgb(249, 237, 9);
+}
+
+.first {
+  background-color: brown;
+}
+
+.second {
+  background-color: rgb(255, 178, 70);
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+
+}
+
+.third {
+  background-color: rgb(42, 40, 40);
+  position: relative;
+    left: 200px;
+    bottom: 200px;
+
+}
+ section{
+  position: relative;
+ }
+.fir {
+  background-color: brown;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+
+}
+.sec {
+  background-color: rgb(255, 178, 70);
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  z-index: 5;
+
+}
+
+.trd {
+  background-color: rgb(42, 40, 40);
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  z-index: 1;
+
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  background: maroon;
+}
+ul {
+  padding: 10px 20px;
+  margin-top: 0;
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding-left: 20px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}

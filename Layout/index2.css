@@ -1,0 +1,26 @@
+nav {
+  width: 960px;
+  margin: 0 auto;
+  background: maroon;
+}
+nav:before,
+nav:after {
+  content: '';
+  display: table;
+}
+nav:after {
+  clear: both;
+}
+ul {
+  padding: 10px 20px;
+  margin-top: 0;
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding-left: 20px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
