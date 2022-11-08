@@ -2,6 +2,7 @@
 "My random string", "JS " -> "JS My random string"
 "My random string", "JS ", 10 -> "My random JS string"
 */
+//KOMENTAR: Ovde ce ti uvek ispisivati 'My random JS string' sta god da uneses kao argument funkcije. Znas li zasto? :)
 
 function insertString(string, position) {
   var newString = '';

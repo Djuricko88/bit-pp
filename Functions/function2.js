@@ -7,3 +7,5 @@ function isEven(a){
 }
 var result = isEven(9);
 console.log(result);
+
+// Komentar: valjda broj delis sa 2 da bi video da li je paran ili neparan? :) 
