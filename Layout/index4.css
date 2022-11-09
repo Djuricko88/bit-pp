@@ -1,0 +1,67 @@
+
+
+.nav-container {
+  max-width: 980px;
+  background-color: gainsboro;
+  height: 200px;
+  padding: 15px;
+}
+.nav-bar {
+  background-color: orange;
+  height: 50px;
+  padding: 10px;
+}
+.nav-links {
+  padding: 10px;
+}
+
+.home-main {
+  background-color: #cccccc;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+.menu-hover {
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  margin-top: 9px;
+  padding: 0;
+  background-color: gainsboro;
+  width: 250px;
+
+  text-align: left;
+}
+
+.menu-hover:hover .menu-2 {
+  background-color: #ffffff;
+}
+.menu-hover:hover .sub-menu {
+  display: block;
+}
+
+.sub-links {
+  padding: 10px;
+
+  width: 100%;
+
+  display: block;
+  box-sizing: border-box;
+}
+
+.sub-links:hover {
+  background-color: #fdfafa;
+}

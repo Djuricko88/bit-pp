@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+  color: red;
+}
+
+img {
+  width: 200px;
+}
+.cat1 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+
+}
+.cat2 {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.cat3 {
+  position: absolute;
+  right: 45%;
+  bottom: 0px;
+ 
+}
