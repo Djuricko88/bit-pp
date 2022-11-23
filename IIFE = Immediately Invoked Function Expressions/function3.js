@@ -3,6 +3,8 @@
 	Output: progra**ing, 2
 */
 
+// Samo da kazem da nikad ne dajes promenjivoj ime rezervisane reci :) Rezervisana rec je string, a ti si tako nazvao promenjivu. 
+// Zadatak je inace dobar.
 var string = 'prograMming';
 
 
