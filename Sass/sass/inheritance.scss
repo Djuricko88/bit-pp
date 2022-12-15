@@ -1,0 +1,18 @@
+
+
+.first {
+  border: 3px solid red;
+  background-color: grey;
+  padding: 10px;
+  width: 1200px-(10px*2)/3;
+}
+
+.second {
+  @extend .first;
+  border-color: blue;
+}
+
+.third {
+  @extend .first;
+  border-color: green;
+}
