@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Poster</title>
+</head>
+
+<body>
+
+  <a href="../index.html">Back To Home Page</a>
+
+  <br>
+  <br>
+
+  <form action="create_new.html" method="POST">
+
+    <!-- headline text -->
+    <fieldset>
+      <legend>Top headline</legend>
+
+      <label for="headline_text">
+        Headline_text:
+        <input type="text" name="headline_text" id="headline_text">
+      </label>
+    </fieldset><br>
+
+    <!-- poster images -->
+    <fieldset>
+      <legend>Images</legend>
+
+      <label for="image1">
+        Image 1:
+        <input type="file" name="image1" id="image1">
+      </label><br>
+      <label for="image2">
+        Image 2:
+        <input type="file" name="image2" id="image2">
+      </label><br>
+      <label for="image3">
+        Image 3:
+        <input type="file" name="image3" id="image3">
+      </label>
+    </fieldset><br>
+
+    <!-- reward -->
+    <fieldset>
+      <legend>Reward</legend>
+
+      <label for="reward">
+        Reward money:
+        <input type="number" name="reward" id="reward">
+      </label>
+    </fieldset><br>
+
+    <!-- poster datas -->
+    <fieldset>
+      <legend>Poster datas</legend>
+
+      <label for="alias">
+        Aliases:<br>
+        <input type="text" name="alias" id="alias">
+      </label><br><br>
+      <label for="birth">
+        Birth:<br>
+        <input type="date" name="birth" id="birth">
+      </label><br><br>
+      <label for="heir">
+        Heir:<br>
+        <input type="text" name="heir" id="heir">
+      </label><br><br>
+      <label for="eyes">
+        Eyes:<br>
+        <input type="text" name="eyes" id="eyes">
+      </label><br><br>
+      <label for="height">
+        Height:<br>
+        <input type="text" name="height" id="height">
+      </label><br><br>
+      <label for="weight">
+        Weight:<br>
+        <input type="text" name="weight" id="weight">
+      </label><br><br>
+      <label for="sex">
+        Sex:<br>
+        <input type="text" name="sex" id="sex">
+      </label><br><br>
+      <label for="id_number">
+        ID Number:<br>
+        <input type="text" name="id_number" id="id_number">
+      </label><br><br>
+      <label for="occupation">
+        Occupation:<br>
+        <input type="text" name="occupation" id="occupation">
+      </label><br>
+
+    </fieldset><br>
+
+    <!-- remarks -->
+    <fieldset>
+      <legend>Remarks</legend>
+
+      <textarea name="remarks" id="remarks" cols="257" rows="10" placeholder="Remarks text"></textarea>
+    </fieldset><br>
+
+    <!-- cution -->
+    <fieldset>
+      <legend>Caution</legend>
+
+      <textarea name="cation" id="cation" cols="257" rows="10" placeholder="Caution text"></textarea>
+    </fieldset><br>
+
+    <input type="reset" name="reset" id="reset" value="Reset"> <input type="submit" name="submit" id="submit" value="Create Poster">
+
+</body>
+
+</html>
