@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./example01.css">
+<script>
+
+  function changeColor(color) {   
+  
+        var bg = document.body.style.background;
+        document.body.style.background !== color ? document.body.style.background = color : document.body.style.background = '';
+  }
+
+</script>
+
+  <title>Toggle background</title>
+</head>
+
+<body>
+
+  <div>
+    <button type="button" class="button-1" onclick="changeColor('rgb(103, 100, 95)')">Toggle Background</button>
+  </div>
+
+
+</body>
+
+</html>
