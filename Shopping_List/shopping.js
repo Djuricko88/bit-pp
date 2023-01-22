@@ -1,3 +1,7 @@
+// KOMENTAR: Jedina stvar koju i tebi moram da kazem jeste da probas da smanjis telo funkcije :D Tj. da uprostis funkciju da bude atomicna
+// To znaci da imas u glavnoj funkciji bukvalno 10 manjih funkcija ako treba, koje ce biti neprobojne.
+// Time dobijas lakse odrzavanje svog koda, lakse izmene i bolju citljivost :) 
+
 'use strict';
 
 // Create a new JavaScript file named shopping.js and make it so that all code written in the file follows strict mode.
