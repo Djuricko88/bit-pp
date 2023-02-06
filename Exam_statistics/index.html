@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./JS/subject.js" defer></script>
+  <script src="./JS/student.js" defer></script>
+  <script src="./JS/exam.js" defer></script>
+  <script src="./JS/form.js" defer></script>
+  <script src="./JS/app.js" defer></script>
+
+  <title>Exam statistic</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>EXAM STATISTIC</h1>
+    <div id="wrapper">
+      <header>
+        <h3>Exam statistic January</h3>
+
+        <p class="total-students-paragraph">Total students: <span id="total-students">0</span></p>
+
+        <div id="passed-output">
+          <p>PASSED <span id="passed-number" class="white">0</span></p>
+        </div>
+        <div id="failed-output">
+          <p>FAILED <span id="failed-number" class="white">0</span> <span id="failed-percentage"
+              class="white">0</span><span class="white">%</span></p>
+        </div>
+
+      </header>
+
+
+      <div id="student-data">
+        <form action="">
+          <fieldset>
+            <select name="" id="subject">
+              <option value=""></option>
+              <option value="js">JavaScript</option>
+              <option value="web">Web</option>
+            </select>
+
+            <input type="text" placeholder="Name Surname" id="student">
+
+           
+            <input type="number" id="grade" placeholder="Grade">
+
+            <input type="button" value="ADD" id="add"></input>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <p class="red" id="error-message"></p>
+
+    <div class="statistics">
+
+      <div class="ststistics-div">
+        <h4>PASSED</h4>
+        <div class="passed" id="passed"></div>
+      </div>
+
+      <div class="ststistics-div">
+        <h4 class="red">FAILED</h4>
+        <div class="failed" id="failed"></div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>

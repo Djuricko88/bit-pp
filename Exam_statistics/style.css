@@ -1,0 +1,145 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 10%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(https://media.istockphoto.com/id/1034861128/photo/day.jpg?s=612x612&w=0&k=20&c=tfcINV9VUx7i7zMNqmrHTCL_r_ncr3iHuQqTXGaqrLo=);
+  padding: 30px 0;
+}
+
+h3,
+.total-students-paragraph {
+  text-align: center;
+  color: white;
+}
+
+ header div {
+  border: none;
+  padding: 0 10px;
+  width: 30%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#passed-output {
+  background-color: rgb(51, 184, 179);  
+}
+
+#failed-output {
+  background-color: rgb(251, 82, 79);
+}
+
+#student-data {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  background-color: lightgray;
+  border: none;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  text-align: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#add {
+  background: none;
+  border: none;
+  color: rgb(51, 184, 179);
+}
+
+#subject,
+#student,
+#grade,
+#add {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#grade {
+  width: 20%;
+}
+
+#add {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+#error-message {
+  text-align: center;
+}
+
+h4 {
+  padding: 0 10px;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ststistics-div {
+  display: inline-block;
+}
+
+.red {
+  color: rgb(251, 82, 79);  
+}
+.blue {
+  color: rgb(51, 184, 179);
+}
+.white {
+  color: white;
+}
+
+#passed,
+#failed {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30vw;
+  padding: 0 10px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.odd {
+  background-color: lightgray;
+  padding: 0 10px;
+}
+
+.even {
+  background-color: darkgray;
+  padding: 0 10px;
+}
