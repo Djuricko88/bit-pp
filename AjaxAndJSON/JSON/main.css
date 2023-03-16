@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+
+#button {
+  width: 400px; 
+  padding: 1rem;
+  border: none;
+  background-color: rgb(251, 164, 2);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem auto;  
+}
+.button {
+  display: flex;  
+  background-color: rgb(7, 99, 53);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  background-color:  rgb(7, 99, 53);  
+  height: 100vh;
+  margin: 0 auto;
+}
+
+
+#dog {
+  margin: 0 auto;
+} 
